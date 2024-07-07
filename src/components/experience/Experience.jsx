@@ -67,6 +67,14 @@ const Experience = () => {
                     <h3>Backend development</h3>
 
                     <div className="experience_content">
+                    <article className='experience_details'>
+                            <BsPatchCheckFill className="experience_details-icon" />
+                            <div>
+                                <h4>Spring boot </h4>
+                                <small className='text-light'>Experienced</small>
+                            </div>
+                        </article>
+
                         <article className='experience_details'>
                             <BsPatchCheckFill className="experience_details-icon" />
                             <div>

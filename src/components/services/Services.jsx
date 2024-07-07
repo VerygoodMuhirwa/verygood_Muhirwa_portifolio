@@ -8,7 +8,7 @@ const Services = () => {
             <h2>Services</h2>
 
             <div className="container services_container">
-              
+        
 
                 {/* this si the end of UI/UX Designing */}
 
