@@ -5,9 +5,8 @@ import IMG2 from "../../assets/news-homepage.png"
 import IMG3 from "../../assets/nova.png"
 import IMG4 from "../../assets/simple-youtube-clone.png"
 import IMG5 from "../../assets/travelling-project.png"
-import IMG6 from "../../assets/verygood image.jpg"
-import IMG7 from "../../assets/verygood image.jpg"
-import IMG8 from "../../assets/verygood image.jpg"
+import IMG6 from "../../assets/bank-landing.png"
+
 
 
 //do not use the images in the production
@@ -48,6 +47,13 @@ title:"Simplest youtube clone",
     title: "Travelling project homepage",
     github: "https://github.com/MuhirwaVerygood/travelling_project",
     demo:"https://travelling-project-nine.vercel.app/"
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: "Bank Landing UI",
+    github: "https://github.com/MuhirwaVerygood/travelling_project",
+    demo:"https://bank-landing-ui.vercel.app/"
   },
 
 ]
