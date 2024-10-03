@@ -4,13 +4,15 @@ import {RiMessengerLine} from "react-icons/ri"
 import {MdOutlineEmail} from "react-icons/md"
 import "./contact.css"
 import  { useRef } from 'react';
-import emailjs from "emailjs-com"
+import emailjs from '@emailjs/browser';
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_hldx29s', 'template_aynv5hr', form.current, 'Ne8MFb415mmePvu0B')
+    emailjs.sendForm('service_hldx29s', 'template_aynv5hr', form.current, 
+      'Ne8MFb415mmePvu0B'
+    )
       .then((result) => {
         console.log(result.text);
       }, (error) => {
@@ -28,8 +30,8 @@ const Contact = () => {
           <article className="contact_option">
           <MdOutlineEmail className='contact_option-icon'/>
             <h4>Email</h4>
-            <h5>verygoodmuhirwa@gmail.com</h5>
-            <a href="mailto:verygoodmuhirwa2@gmail.com" target="_blank">Send a message</a>
+            <h5>verygoodmuhirwa2@gmail.com</h5>
+            <a href="mailto:verygoodmuhirwa@gmail.com" target="_blank">Send a message</a>
 
           </article>
           <article className="contact_option">
@@ -47,8 +49,8 @@ const Contact = () => {
 
         </div>
         <form action="" ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your full Name' required />
-          <input type="email" name='email' placeholder='Your email' required />
+          <input type="text" name='from_name' placeholder='Your full Name' required />
+          <input type="email" name='from_email' placeholder='Your email' required />
           <textarea name="message"   rows="7" placeholder='Your message' required></textarea>
        <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>

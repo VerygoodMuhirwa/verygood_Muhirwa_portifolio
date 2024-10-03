@@ -4,7 +4,6 @@ import Client1 from "../../assets/isite.png"
 import Client2 from "../../assets/souvenir.png"
 import Client3 from "../../assets/elite.png"
 import Client4 from "../../assets/stanley.png"
-import Client5 from "../../assets/verygood image.jpg"
 import {  Pagination} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/pagination';
