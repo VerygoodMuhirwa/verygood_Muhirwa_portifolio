@@ -1,8 +1,8 @@
 import React from 'react'
 import './portifolio.css'
-import IMG1 from "../../assets/verygood image.jpg"
-import IMG2 from "../../assets/chat_templates_and_infographics.jpg"
-import IMG3 from "../../assets/figmaDashboard.jpg"
+import IMG1 from "../../assets/product_list.png"
+import IMG2 from "../../assets/news-homepage.png"
+import IMG3 from "../../assets/nova.png"
 import IMG4 from "../../assets/HireCreatives.gif"
 import IMG5 from "../../assets/verygood image.jpg"
 import IMG6 from "../../assets/verygood image.jpg"
@@ -16,24 +16,24 @@ const data = [
   {
   id:1,
   image: IMG1,
-  title: "Crypto Currency Dashboard & Financial Visualisation",
-  github: "https://github.com",
-  demo:"https://dribbble.com/shots/1667371-Crypto-currency-dashboard-and-financial-data-visualisation"
+  title: "Product list ",
+  github: "https://github.com/MuhirwaVerygood/front_product_list",
+  demo:"https://front-product-list.vercel.app/"
 },
   
   {
     id: 2,
     image: IMG2,
-    title: "Charts templates * Infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-information-in-Figma"
+    title: "News Home page",
+    github: "https://github.com/MuhirwaVerygood/news_homepage",
+    demo: "https://news-homepage-amber.vercel.app/"
   },
   {
     id: 3,
     image: IMG3,
-    title: "Figma dashboard UI kit for data design web apps",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps"
+    title: "Nova",
+    github: "https://github.com/Mwungere/Frontend-Nova",
+    demo: "http://194.163.167.131:3030/"
   },
   {
     id: 4,
