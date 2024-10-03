@@ -3,8 +3,8 @@ import './portifolio.css'
 import IMG1 from "../../assets/product_list.png"
 import IMG2 from "../../assets/news-homepage.png"
 import IMG3 from "../../assets/nova.png"
-import IMG4 from "../../assets/HireCreatives.gif"
-import IMG5 from "../../assets/verygood image.jpg"
+import IMG4 from "../../assets/simple-youtube-clone.png"
+import IMG5 from "../../assets/travelling-project.png"
 import IMG6 from "../../assets/verygood image.jpg"
 import IMG7 from "../../assets/verygood image.jpg"
 import IMG8 from "../../assets/verygood image.jpg"
@@ -38,16 +38,16 @@ const data = [
   {
     id: 4,
     image: IMG4,
-title:"Creative Design and prototyping",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/1667371-Crypto-currency-dashboard-and-financial-data-visualisation"
+title:"Simplest youtube clone",
+    github: "https://github.com/MuhirwaVerygood/youtube_clone/tree/main",
+    demo: "https://youtube-clone-pearl-xi.vercel.app/"
   },
   {
     id: 5,
     image: IMG5,
-    title: "Crypto Currency Dashboard & Financial Visualisation",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/1667371-Crypto-currency-dashboard-and-financial-data-visualisation"
+    title: "Travelling project homepage",
+    github: "https://github.com/MuhirwaVerygood/travelling_project",
+    demo:"https://travelling-project-nine.vercel.app/"
   },
 
 ]
